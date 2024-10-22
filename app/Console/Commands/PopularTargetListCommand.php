@@ -44,6 +44,6 @@ class PopularTargetListCommand extends Command
                 ]
             );
 
+        }
     }
-}
 }

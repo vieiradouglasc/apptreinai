@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EquipmentListController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TargetListController;
 use Illuminate\Support\Facades\Route;
@@ -33,3 +34,7 @@ require __DIR__.'/auth.php';
 
 //Target List
 Route::get('targetlists', [TargetListController::class, 'index'])->name('targetlist.index');
+
+
+//Equipment List
+Route::get('equipmentlists', [EquipmentListController::class,'index'])->name('equipmentlist.index');
