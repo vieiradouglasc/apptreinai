@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TargetListController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,3 +30,6 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+//Target List
+Route::get('targetlists', [TargetListController::class, 'index'])->name('targetlist.index');

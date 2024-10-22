@@ -318,17 +318,17 @@ return [
         ['header' => 'BASIC REGISTRATIONS'],
         [
             'text' => 'Target List',
-            'url' => 'targetlist',
+            'url' => 'targetlists',
             'icon' => 'far fa-fw fa-file',
         ],
         [
             'text' => 'Equipment List',
-            'url' => 'equipmentlist',
+            'url' => 'equipmentlists',
             'icon' => 'far fa-fw fa-file',
         ],
         [
             'text' => 'Body Part List',
-            'url' => 'bodypartlist',
+            'url' => 'bodypartlists',
             'icon' => 'far fa-fw fa-file',
         ],
     ],
