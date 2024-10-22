@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BodyPartListController;
 use App\Http\Controllers\EquipmentListController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TargetListController;
@@ -38,3 +39,7 @@ Route::get('targetlists', [TargetListController::class, 'index'])->name('targetl
 
 //Equipment List
 Route::get('equipmentlists', [EquipmentListController::class,'index'])->name('equipmentlist.index');
+
+
+// Body Part List
+Route::get('bodypartlists', [BodyPartListController::class, 'index'])->name('bodypartlist.index');
